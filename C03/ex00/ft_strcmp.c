@@ -32,14 +32,4 @@ int	main()
 	printf("%s vs  %s: %d\n", str1, str2, ft_strcmp(str1, str2));
 	printf("%s vs  %s: %d\n", str1, str2, strcmp(str1, str2));
 	
-        printf("mine1: %d\n", ft_strcmp("sucks", "raismebgkhslgskgbslkns"));
-        printf("mine2: %d\n", ft_strcmp("ABCD", "ABCD"));
-        printf("mine3: %d\n", ft_strcmp("ABCD", "z"));
-        printf("mine4: %d\n", ft_strcmp("ABCD", "abcdEghe"));
-        printf("mine5: %d\n", ft_strcmp("i have no idea", "i have no idea"));
-        printf("ori1: %d\n", strcmp("sucks", "raismebgkhslgskgbslkns"));
-        printf("ori2: %d\n", strcmp("ABCD", "ABCD"));
-        printf("ori3: %d\n", strcmp("ABCD", "z"));
-        printf("ori4: %d\n", strcmp("ABCD", "abcdEghe"));
-        printf("ori5: %d\n", strcmp("i have no idea", "i have no idea"));
 }*/
