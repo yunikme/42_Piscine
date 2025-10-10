@@ -22,12 +22,11 @@ char    *ft_strdup(char *src)
     }
     return target;
 }
-int main()
-{
-    char* src = "saya bisa makan";
-    char* target = ft_strdup(src);
-    char* target1 = strdup(src);
-    printf("%s\n", target);
-    printf("%s\n", target1);
-
-}
+// int main()
+// {
+//     char* src = "saya bisa makan";
+//     char* target = ft_strdup(src);
+//     char* target1 = strdup(src);
+//     printf("%s\n", target);
+//     printf("%s\n", target1);
+// }
