@@ -24,18 +24,18 @@ int ft_ultimate_range(int **range, int min, int max)
     }
     return i;
 }
-int main()
-{
-    int *test;
-    int min = 5;
-    int max = 8;
-    int size = ft_ultimate_range(&test, min, max);
-    int i = 0;
-    while (i < size)
-    {
-        printf("%d", test[i]);
-        i++;
-    }
-    printf("\n");
-    free(test);
-}
+// int main()
+// {
+//     int *test;
+//     int min = 5;
+//     int max = 8;
+//     int size = ft_ultimate_range(&test, min, max);
+//     int i = 0;
+//     while (i < size)
+//     {
+//         printf("%d", test[i]);
+//         i++;
+//     }
+//     printf("\n");
+//     free(test);
+// }
