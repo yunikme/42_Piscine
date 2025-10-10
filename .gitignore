@@ -3,3 +3,4 @@
 *.plist
 *.swp
 .vscode
+*.yml
